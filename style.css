@@ -1,0 +1,49 @@
+body {
+    background-color: #0f0f0f; /* Fondo oscuro estilo Dya Rikku */
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #ffffff55;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.art-card img {
+    width: 100%;
+    border-radius: 8px;
+    filter: grayscale(20%);
+    transition: 0.5s;
+}
+
+.art-card img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
