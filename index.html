@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio Artístico</title>
+    <title>Portfolio Artístico</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <div class="logo">MI NOMBRE</div>
-        <ul>
-            <li><a href="#">Trabajos</a></li>
-            <li><a href="#">Comisiones</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
+        <div class="logo">ART_STUDIO</div>
+        <div class="links">
+            <a href="#galeria">Trabajos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
     </nav>
 
-    <main class="gallery">
-        <div class="art-card"><img src="assets/dibujo1.jpg" alt="Obra 1"></div>
-        <div class="art-card"><img src="assets/dibujo2.jpg" alt="Obra 2"></div>
-        <div class="art-card"><img src="assets/dibujo3.jpg" alt="Obra 3"></div>
-    </main>
+    <main id="galeria" class="grid-container"></main>
+
+    <script src="script.js"></script>
 </body>
 </html>
